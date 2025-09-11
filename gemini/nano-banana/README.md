@@ -1,15 +1,12 @@
 # Nano banana usage
-Inspired by https://github.com/google-gemini/veo-3-nano-banana-gemini-api-quickstart
+- https://github.com/google-gemini/veo-3-nano-banana-gemini-api-quickstart
+- https://github.com/google-gemini/nano-banana-hackathon-kit/blob/main/guides/02-use-nano-banana.ipynb
 
 # set up
 ```bash
 uv init
 uv add rich dotenv jupyterlab
 uv add google-genai Pillow
-
-uv add xxx
-uv add xxx
-uv add xxx
 ```
 
 # Image generation

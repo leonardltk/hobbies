@@ -29,10 +29,10 @@ from PIL import Image
 
 
 # ----- Models (from official docs) -----
-IMAGEN4 = "imagen-4.0-generate-001"                     # Imagen 4 (image generation) :contentReference[oaicite:1]{index=1}
-GEMINI_NATIVE_IMAGE = "gemini-2.5-flash-image-preview"  # Gemini's native image generation/edit/compose (aka Nano Banana) :contentReference[oaicite:2]{index=2}
-VEO3 = "veo-3.0-generate-001"                           # Veo 3 (video with audio) :contentReference[oaicite:3]{index=3}
-VEO3_FAST = "veo-3.0-fast-generate-001"                 # Optional faster Veo 3 variant :contentReference[oaicite:4]{index=4}
+IMAGEN4 = "imagen-4.0-generate-001"                     # Imagen 4 (image generation)
+GEMINI_NATIVE_IMAGE = "gemini-2.5-flash-image-preview"  # Gemini's native image generation/edit/compose (aka Nano Banana)
+VEO3 = "veo-3.0-generate-001"                           # Veo 3 (video with audio)
+VEO3_FAST = "veo-3.0-fast-generate-001"                 # Optional faster Veo 3 variant
 
 def debug_on_error(func):
     """Decorator to run pdb.post_mortem when an exception occurs."""
