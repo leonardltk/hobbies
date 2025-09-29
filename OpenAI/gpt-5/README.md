@@ -26,8 +26,9 @@ uv run main.py \
 
 # Parameters
 ## verbosity
+https://cookbook.openai.com/examples/gpt-5/gpt-5_new_params_and_tools#1-verbosity-parameter
 ```bash
-uv run compare-verbosity.py
+uv run new_param-verbosity.py
 ```
 | Verbosity | Reasoning Tokens | Non-Reasoning Tokens | Total Tokens |
 |-----------|------------------|----------------------|--------------|
@@ -35,3 +36,8 @@ uv run compare-verbosity.py
 | medium    | 1408             | 853                  | 2261         |
 | high      | 1664             | 1167                 | 2831         |
 
+## freeform-function-calling
+https://cookbook.openai.com/examples/gpt-5/gpt-5_new_params_and_tools#2-freeform-function-calling
+```bash
+uv run new_param-freeform_function_calling.py
+```
