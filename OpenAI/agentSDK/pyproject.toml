@@ -1,0 +1,15 @@
+[project]
+name = "agentsdk"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dotenv>=0.9.9",
+    "gradio>=5.47.2",
+    "jupyterlab>=4.4.9",
+    "openai>=1.109.1",
+    "openai-agents>=0.3.2",
+    "pandas>=2.3.2",
+    "rich>=14.1.0",
+]
